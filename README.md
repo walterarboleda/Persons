@@ -4,9 +4,13 @@
 
 ## SQL Server 2021 Database Creation
 CREATE DATABASE miBaseDeDatos;
+
 GO
+
 USE miBaseDeDatos
+
 GO
+
 CREATE TABLE Persons (
     PersonID int,
     LastName varchar(255),
